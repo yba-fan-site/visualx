@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "visualx",
+  "version": "${version}",
+  "name": "VisualX - Lunar Style HUD",
+  "description": "A lightweight PvP HUD inspired by Lunar Client. Client-side only.",
+  "authors": [
+    "VisualX"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.visualx.VisualXClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "fabric-key-binding-api-v1": "*"
+  }
+}
